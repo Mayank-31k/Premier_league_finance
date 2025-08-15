@@ -152,8 +152,14 @@ def main():
     )
     
     # Title and description
-    st.title("Premier League Performance & Financial Analytics Dashboard")
-    st.subheader(f"Business Intelligence Dashboard for Top 6 Premier League Teams - {selected_season} Season")
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        st.title("Premier League Performance & Financial Analytics Dashboard")
+        st.subheader(f"Business Intelligence Dashboard for Top 6 Premier League Teams - {selected_season} Season")
+    with col2:
+        st.markdown("")
+        st.markdown("")
+        st.markdown("<div style='text-align: right; color: #666; font-style: italic;'>Made with ❤️ by Mayank Kumar</div>", unsafe_allow_html=True)
     
     # Team filter
     selected_teams = st.sidebar.multiselect(

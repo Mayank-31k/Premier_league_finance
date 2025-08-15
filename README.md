@@ -1,5 +1,9 @@
 # 🏆 Premier League Performance & Financial Analytics Dashboard
 
+| | |
+|---|---|
+| | **Made with ❤️ by Mayank Kumar** |
+
 A comprehensive business intelligence dashboard for analyzing the performance and financial metrics of the top 6 Premier League teams across multiple seasons (2020-21 to 2024-25).
 
 ![Dashboard Preview](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
